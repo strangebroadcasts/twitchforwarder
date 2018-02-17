@@ -4,6 +4,8 @@ Forwards Twitch chat to a Discord channel.
 
 Note that this uses Discord's webhooks, so this might break if the chat is particularly heavy. Caveat emptor.
 
+[Downloads here.](https://github.com/strangebroadcasts/twitchforwarder/releases)
+
 ## Setup
 1. Create a Discord webhook by opening the channel's properties, navigating to *Webhooks* and clicking *Create Webhook*. Make note of the webhook URL.
 2. Optional: create your own OAuth token through [dev.twitch.tv](https://dev.twitch.tv/dashboard/apps/create). If you skip this step, twitchforwarder will automatically open up [a utility](https://twitchapps.com/tmi/) to generate this token.
